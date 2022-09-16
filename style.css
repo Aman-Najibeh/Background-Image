@@ -1,0 +1,37 @@
+body{
+    background-image: url(photo_2022-09-15_00-38-38.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.continer{
+    width:800px ;
+    margin: auto;
+}
+header{
+    padding: 10px;
+}
+.color-white{
+    color:white ;
+}
+
+article{
+    width:800px ;
+    background-color: #eef1f1d0;
+    background-image:url("OIP\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border:dashed 2px black;
+    padding:10px;
+    margin: 10px;
+}
+p{
+    margin-left: 20px;
+    font-family: "Trebuchet MS";
+}
+code{
+    color: #446977;
+    margin-left: 20px;
+}
+section{
+    padding: 10px;
+}

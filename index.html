@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="continer">
+        <header >
+            <h1 class="color-white">Background Image,Let's Go!</h1>
+            <p class="color-white">Properties</p>
+            <p class="color-white">There are few different background Properties:</p>
+        </header>
+        <article class="section-1">
+             <h2>background-image</h2>
+             <p>This property is location of image itself ,for example</p>
+             <code>h1 { background-imge: url('https://website.com/img/background.jpg');}</code>
+             <p>or</p>
+             <code>h1 { background-imge: url('img/background.jpg');}</code>
+        </article>
+        <article class="section-2">
+            <h2>background-color</h2>
+            <p>This allows us to add colour to a background. an example in CSS would like this:</p>
+            <code>h1 { background-color: blue;}
+            </code>
+        </article>
+        <article class="section-3">
+            <h2>background-repeat</h2>
+            <p>This is how the image will repeat. The value con be any of the following:</p>
+            <code>- background-repeat: repeat;</code>
+            <p>This repeats on both the X and Y axis , and will essentially tile the image across the entire background.</p><br><br>
+            <code>- background-repeat: repeat-x;</code>
+            <p>This repeats the background on X axis ,or horizontally.</p><br><br>
+            <code>- background-repeat: repeat-y;</code>
+            <p>This repeats the background on Y axis ,or horizontally.</p><br><br>
+            <code>- background-repeat: no-repeat;</code>
+            <p>This shows the image only once, without repeating.</p><br><br>
+        </article>
+        <article class="section-4">
+            <h2>background-position</h2>
+            <p>This is the actual position of the background image within it's container.the values can be:</p>
+            <code>background-position: top;</code><br>
+            <code>background-position: right;</code><br>
+            <code>background-position: bottom;</code><br>
+            <code>background-position: left;</code><br>
+            <code>background-position: center;</code><br>
+            <p>it can also be a percentage, length,or combination,like so:</p><br>
+            <code>background-position: 50px 20%;</code>
+        </article>
+        <section>
+            <!-- <th>Shorthand!</th> -->
+            <h2 style="color:white ;">Shorthand!</h2>
+           <p class="color-white">There's a quick way around background imager, and you don't necessarily have to type out all of the above code to set up your background images the way you want them.</p>
+        </section>
+        <article>
+            <td class="color-white">Background</td>
+            <p>The "background" Shorthand can handle them all in one!</p>
+            <code>background: blue url('img/background.jpg') top left no-repeat;</code>
+        </article>
+
+    </div>
+    
+</body>
+</html>
